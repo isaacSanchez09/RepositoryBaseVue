@@ -1,4 +1,5 @@
-# GesBiblio
+# RepositoryBaseVue
+
 
 This template should help get you started developing with Vue 3 in Vite.
 
@@ -27,5 +28,12 @@ npm run dev
 ```sh
 npm run build
 ```
-# RepositoryBaseVue
-# RepositoryBaseVue
+
+# Install Libreries
+
+```sh
+npm install axios
+npm install bootstrap
+npm install vee-validate
+npm install yup
+```
