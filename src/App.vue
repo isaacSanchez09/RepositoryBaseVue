@@ -1,16 +1,14 @@
 <script>
 import { RouterLink, RouterView } from 'vue-router'
-import { useNameStore } from './stores/name';
+import { useDataStore } from './stores/data';
 import { mapActions } from 'pinia';
-
-
 
   export default {
     components: {
 
 },
     methods: {
-      ...mapActions(useNameStore, {
+      ...mapActions(useDataStore, {
         loadData: 'loadData'
       })
     },
