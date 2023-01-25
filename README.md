@@ -29,6 +29,11 @@ npm run dev
 npm run build
 ```
 
+# Configurations
+
+ > Default Configuration: Branch Main <br>
+    Basic Configuration: Branch Basics
+
 # Install Libreries
 
 ```sh
