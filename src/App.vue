@@ -2,11 +2,12 @@
 import { RouterLink, RouterView } from 'vue-router'
 import { useDataStore } from './stores/data';
 import { mapActions } from 'pinia';
+import AppMenu from './components/AppMenu.vue'
 
   export default {
     components: {
-
-},
+      AppMenu
+    },
     methods: {
       ...mapActions(useDataStore, {
         loadData: 'loadData'
@@ -21,7 +22,7 @@ import { mapActions } from 'pinia';
 
 <template>
   <div class="container">
-    <h1>Configurado Por Defecto</h1>
+    <AppMenu></AppMenu>
     <RouterView />
   </div>
 </template>
